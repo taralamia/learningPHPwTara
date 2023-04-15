@@ -11,13 +11,19 @@
     ?>
 
 <ol> 
-        <?php
-        foreach ($books as $book)
-        echo "<li> $book </li>";  
-        ?>
-      </ol>
-      </h1>
-     
+       
 
+        <?php foreach($books as $b) : ?>
+        <li> <?php echo $b ?> </li>
+        <?php endforeach; ?> 
+      </ol>
+
+    
+ <ul>
+  <?php foreach($books as $book)
+    echo "<li> $book </li>"
+     ?>
+        </ul>    
+        </h1>
 </body>
 </html>
