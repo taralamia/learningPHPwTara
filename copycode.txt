@@ -1,2 +1,1 @@
- 
-          <li><?php echo $book1['author'] ?></li>
+ => in anchor tag after using a href or the link we need to add some statement too otherwise the window won't show anything
